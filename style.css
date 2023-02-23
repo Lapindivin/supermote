@@ -8,6 +8,14 @@ nav {
 .haut {
   padding-top: 111px;
 }
+@media (max-width: 677px) {
+  .haut {
+    padding-top:15Opx
+  }
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+}
+
+
 h1 {
   font-size: 20px;
   color: rgb(0, 0, 0);
